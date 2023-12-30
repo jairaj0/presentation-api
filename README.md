@@ -3,15 +3,16 @@
 
 *** Commands ***
 commands>>>
-
+[
 { "file": ["open/create", "path"] },
 { "goto": ["line", "column"] },
 { "cmd": "save/wait manual time/number of delay time" },
-{ "text": [code in text, "delay"] }
-{ "linebyline": [code in text,[line , column] , "delay" , wait/1000 }
-{ "css": [code in text,[line , column] , "delay" , wait/1000 }
-{ "emmet": ["code in text" , "delay"] }
+{ "text": [code in text, "delay"] },
+{ "linebyline": [code in text,[line , column] , "delay" , wait/1000 },
+{ "css": [code in text,[line , column] , "delay" , wait/1000 },
+{ "emmet": ["code in text" , "delay"] },
 { "line": [lineNo , no of lines] }
+]
 
 *** veriables for short-cut ***
 
