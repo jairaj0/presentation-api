@@ -2,6 +2,7 @@
 
 
 *** Commands ***
+commands>>>
 
 { "file": ["open/create", "path"] },
 { "goto": ["line", "column"] },
@@ -13,6 +14,8 @@
 { "line": [lineNo , no of lines] }
 
 *** veriables for short-cut ***
+
+commands>>>
 
 const end = 1000;
 const create = "create";
@@ -66,6 +69,8 @@ note :  add this to package.json
 
 // step 2 : main.js
 
+commands >>>
+
 import axios from "axios";
 import { commands, fileName } from "./index.js";
 import fs from 'fs';
@@ -96,6 +101,7 @@ axios.request(config)
 
 // step 4 : index.js
 
+commands >>>
 const end = 1000; const create = "create"; const open = "open"; const save = "save"; const wait = "wait";
 // give any file name you want to store commands
 export const fileName = "universalCss";
